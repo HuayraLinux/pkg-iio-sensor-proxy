@@ -1,0 +1,36 @@
+iio-sensor-proxy (1.1-3) torbellino; urgency=medium
+
+  * Backport change to polling by default.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 06 Jul 2016 14:23:19 -0300
+
+iio-sensor-proxy (1.1-2) experimental; urgency=medium
+
+  * Rebuild to Huayra GNU/Linux
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 05 Jul 2016 13:07:31 -0300
+
+iio-sensor-proxy (1.1-1) unstable; urgency=medium
+
+  * [f9476d9] Imported Upstream version 1.1
+    - Support for compasses (only accessible to GeoClue)
+    - Fix service not starting in a number of cases
+    - Fix excessive CPU usage monitoring light sensors on Macs
+    - Support light sensors on some Samsung laptops
+    - Fix incorrect sensor readings on some devices due to unit scaling
+  * [9c15fa5] Drop patch fix-build-on-debian.patch
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Fri, 14 Aug 2015 13:56:59 +0200
+
+iio-sensor-proxy (1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #789812)
+  * [92dfd48] Call autogen with proper paths
+  * [5b28b58] Fix indentation for package description
+  * [f5f3661] Add GPL-2 only license
+  * [0f1b7e8] Update debian/copyright with mention of the GFDL
+    components
+  * [34048af] Order the license text
+  * [fc69ec1] Breark extended description line
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Thu, 09 Jul 2015 18:07:14 +0530
